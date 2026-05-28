@@ -1,10 +1,11 @@
 body{
     font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
 }
 
 .hero{
     height: 100vh;
-    background-image: url('Bakery Background.jpg');
+    background-image: url('Bakery-bg.jpg');
     background-size: cover;
     background-position: center;
 
@@ -28,9 +29,9 @@ body{
 .testimoni img{
     height: 250px;
     object-fit: cover;
+    min-height: 120px;
 }
 
 .promo{
-    background-color: beige;
     font-weight: bold;
 }
