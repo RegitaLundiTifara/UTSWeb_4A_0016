@@ -3,9 +3,9 @@ body{
     background-color: burlywood;
 }
 
+/* Hero */
 .hero{
     height: 100vh;
-    background-image: url('Bakery-bg.jpg');
     background-size: cover;
     background-position: center;
 
@@ -21,17 +21,86 @@ body{
     font-weight: bold;
 }
 
+.hero img{
+    width: 100%;
+    max-width: 3000px;
+    height: 650px;
+    object-fit: cover;
+    margin-right: 40px;
+    border-radius: 250px;
+}
+
+/* Navbar */
+.navbar{
+    background: linear-gradient(
+        to right,
+        #8b5e3c,
+        #c69c6d
+    );
+
+    padding: 18px 40px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+    border-bottom: 2px solid #f3d2a2;
+}
+
+/* Logo */
+.navbar-brand{
+    color: white;
+
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Menu */
+.nav-link{
+    color: white;
+
+    font-size: 18px;
+
+    margin-left: 15px;
+
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #ffe4c4;
+}
+
+/* Button Navbar */
+.navbar .btn-warning{
+    background-color: #fff8f0;
+
+    color: #8b5e3c;
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 10px 20px;
+
+    font-weight: bold;
+}
+
+.navbar .btn-warning:hover{
+    background-color: #f3d2a2 !important;
+}
+
+/* Card */
 .card img{
     height: 250px;
     object-fit: cover;
 }
 
+/* Testimoni */
 .testimoni img{
     height: 250px;
     object-fit: cover;
     min-height: 120px;
 }
 
+/* Promo */
 .promo{
     font-weight: bold;
 }
