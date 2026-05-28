@@ -21,6 +21,11 @@ body{
 }
 
 .card img{
-    height: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.testimoni img{
+    height: 250px;
     object-fit: cover;
 }
