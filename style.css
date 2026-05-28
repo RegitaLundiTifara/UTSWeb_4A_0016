@@ -29,3 +29,8 @@ body{
     height: 250px;
     object-fit: cover;
 }
+
+.promo{
+    background-color: beige;
+    font-weight: bold;
+}
