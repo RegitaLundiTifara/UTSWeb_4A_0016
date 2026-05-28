@@ -7,4 +7,20 @@ body{
     background-image: url('Bakery Background.jpg');
     background-size: cover;
     background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(60, 30, 10);
+}
+
+.hero h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.card img{
+    height: 200px;
+    object-fit: cover;
 }
