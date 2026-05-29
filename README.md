@@ -4,6 +4,7 @@
 
 
 Referensi Desain berasal dari pinterest https://pin.it/4zCsWG6lz
+- Desain di modifikasi pada  bagian warna, gambar dan ketentuan section (8 section), serta kebuthan DOM.
 
 
 
