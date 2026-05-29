@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8b31778e-41ec-47dc-b06c-51311f1e03e2" width="600"/>
+  <img src="https://github.com/user-attachments/assets/8b31778e-41ec-47dc-b06c-51311f1e03e2" width="800"/>
 </p>
 
 Referensi Desain dari pinterest
