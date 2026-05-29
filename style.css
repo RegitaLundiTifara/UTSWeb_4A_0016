@@ -87,6 +87,22 @@ body{
     background-color: #f3d2a2 !important;
 }
 
+/* Owner */
+.owner section{
+    background-color: #A78265;
+}
+
+.owner img{
+    width: 100%;
+    max-width: 350px;
+    border-radius: 20px;
+}
+
+.owner-text{
+    margin-top: 15px;
+    line-height: 1.8;
+}
+
 /* Card */
 .card img{
     height: 250px;
