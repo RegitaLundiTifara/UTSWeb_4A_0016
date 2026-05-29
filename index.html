@@ -142,6 +142,7 @@
     <h2>SPECIAL PROMO</h2>
     <p>BUY 1 GET 1 EVERY SATURDAY NIGHT!</p>
   </div>
+  </section>
 
 <!--Testimoni-->
 <section id="testimoni" class="testimoni py-5">
@@ -187,6 +188,47 @@
 </section>
 
 <!--Order-->
+<section id="order" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Order Bread</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form id="orderForm">
+          <input type="text"
+          id="customerName"
+          class="form-control mb-3"
+          placeholder="Your Name"required>
+
+          <select id="breadType"
+          class="form-control mb-3">
+
+            <option>Doughnut</option>
+            <option>Cinnamon Roll</option>
+            <option>Cupcake</option>
+            <option>Cheese Cake</option>
+
+        </select>
+
+        <input type="number"
+        id="breadTotal"
+        class="form-control mb-3"
+        placeholder="Total Bread" required>
+
+        <button id="btnTambah" type="button" class="btn btn-warning">Add Order</button>
+
+        <!--Order List-->
+        <ul id="daftarOrder"
+        class="list-group"></ul>
+        </form>
+
+        <!--Result-->
+        <div id="orderResult"
+        class="mt-4 text-center fw-bold"></div>
+
+      </div>
+    </div>
+  </div>
+</section>
 
   <!--Contact-->
   <section id="contact" class="py-5">
@@ -215,7 +257,7 @@
 
   <!--Footer-->
   <footer class="bg-dark text-white text-center p-3">
-    <p>Thank You For Visisting Us, Enjoy You Day</p>
+    <p>Thank You For Visisting Us, Enjoy You Day^^</p>
   </footer>
 
     <!--jQuery-->
